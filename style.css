@@ -62,7 +62,83 @@ body{
     cursor: pointer;
 }
 
+
 .navbtn:hover{
     background-color: #2549D3;
+
+}
+
+.navbtn2{
+    background-color:#2549D3;
+    padding: 13px 20px;
+    color: #fafafa;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.navbtn3{
+    background-color:#0F298B;
+    padding: 10px;
+    color: #fafafa;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+
+}
+
+.navbtn3 img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+
+}
+
+.section1{
+    position: relative;
+
+}
+
+.sectionwrapper{
+    width: 80%;
+    margin: 10% auto;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section1-img{
+    width: 100%;
+
+}
+.text{
+    width: 50%;
+    padding-right: 70px;
+    
+}
+.text h1{
+    font-size: 60px;
+    color: #0F298B;
+    margin-bottom: 20px;
+
+}
+
+.text p{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.image{
+    width: 50%;
 
 }
