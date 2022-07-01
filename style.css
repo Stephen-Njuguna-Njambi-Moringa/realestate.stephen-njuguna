@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.header{
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.header-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Oleo Script', cursive;
+    font-size: 30px;
+}
+
+.navlist{
+    display: flex;
+
+}
+
+.navitem{
+    margin-right: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+
+}
+
+.navlink:hover{
+    color:  #2549D3;
+}
+
+.active{
+    color:#0F298B;
+    font-weight: bold;
+}
+
+.navbtn{
+    background-color:#2549D3;
+    padding: 10px 20px;
+    color: #fafafa;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbtn:hover{
+    background-color: #2549D3;
+
+}
