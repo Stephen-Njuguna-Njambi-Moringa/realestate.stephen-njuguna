@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Space Grotesk', sans-serif;
+    background-color: aliceblue;
 }
 
 .header{
@@ -77,29 +78,33 @@ body{
     cursor: pointer;
     font-size: 20px;
     text-transform: capitalize;
+    font-weight: 600;
+
 }
 
 .navbtn3{
-    background-color:#0F298B;
+    background-color: #0F298B;
     padding: 10px;
-    color: #fafafa;
+    color: black;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    width: 150px;
+    width: 250px;
     height: 150px;
-    margin-left: 30px;
+    margin-left: 30px;justify-content: space-between;
     border-radius: 50%;
     text-align: center;
     position: relative;
 
+
 }
 
 .navbtn3 img{
-    position: absolute;
+    position: relative;
     width: 30px;
     height: 30px;
-    top: 0px;
+    top: 8px;
+
 
 }
 
@@ -142,3 +147,84 @@ body{
     width: 50%;
 
 }
+
+
+.section2{
+    width: 60%;
+    background-color: white;
+    padding-left: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.sec2-list{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+   
+}
+
+.sec2-list li a{
+    text-decoration: none;
+    color: #0F298B;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.searchbtn{
+
+    background-color:#2549D3;
+    padding: 13px 20px;
+    color: #fafafa;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/* product container */
+.sec3{
+    width: 100%;
+    background-color: aqua;
+    margin-right: 20%;
+    padding:10%;
+    border-radius: 10px;
+}
+
+.sec3 h1{
+    color: #0F298B;
+}
+.second-h1{
+    padding-left: 30%;
+    color: #0F298B;
+}
+
+.sec3 p{
+    padding-left: 25%;
+    font-size: 23px;
+}
+
+.container{
+    display: flex;
+    padding-top: 10%;
+    padding-left: 30%;
+}
+
+.cards{
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+
+}
+
+.card1-image{
+    background-image: url(./images/icon.png);
+}
+
