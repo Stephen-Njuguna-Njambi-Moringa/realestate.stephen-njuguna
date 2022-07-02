@@ -18,6 +18,11 @@ body{
     width: 100%;
     padding: 20px 0px;
     border-bottom: 1px solid gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99; 
+    /* z-index "moves items  */
 }
 
 .header-wrapper{
@@ -169,8 +174,54 @@ body{
     font-size: 28px;
     border: none;
     color:#0F298B;
-    background-color: transparent;
-    
+    background-color: transparent;   
 }
 
+.section-heading{
+    color: #0F298B;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
 
+.product-title{
+    text-align: center;
+    color: #0F298B;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.product-explanation{
+    text-align: center;
+    font-size: 30px;
+}
+
+.product-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+.card{
+    text-align: center;
+    box-shadow: 5px 10px 18px #888888;
+    padding:50px 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.card img{
+    width: 70px;
+}
+
+.card h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.img1{
+    height: 50px;
+    width: 20px;
+}
