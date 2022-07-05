@@ -283,6 +283,9 @@ body{
 }
 
 /* featured section */
+.featured-section{
+    margin-bottom: 50px;
+}
 .featured-title{
     font-size: 40px;
     color: #0F298B;
@@ -297,6 +300,29 @@ body{
     margin: 0 auto;
 
 }
+
+.featured-properties{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.ft-card{
+    width: 400px;
+}
+
+.ft-card img{
+    width: 100%;
+}
+.property-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
 /* customer section */
 
 
